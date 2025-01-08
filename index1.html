@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- sldiderr -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+
+
+
+    <style>
+        .animated-img {
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 1s linear forwards;
+        }
+
+        .animated-skills {
+            position: relative;
+            opacity: 0;
+            animation: moveleft 1s linear forwards;
+        }
+
+        .animatedcard {
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 1s linear forwards;
+        }
+
+        @keyframes moveleft {
+            0% {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+
+            25% {
+                opacity: 0.5;
+                transform: translateX(50px);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: translateX(75px);
+            }
+
+            75% {
+                opacity: 0.75;
+                transform: translateX(100px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(150px);
+            }
+
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(100px);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: translateY(25px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+    <title>Kiran Tiwari ~ Software Developer</title>
+</head>
+
+<body style="background-color: #2d2e32;">
+    <nav id="navig">
+        <div class="nav-bar">
+
+            <span class="logo navLogo">
+                <!-- <img src="https://demo.phlox.pro/freelancer/wp-content/uploads/sites/272/2021/02/logo-header.svg"> -->
+
+            </span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <!-- <span class="logo"><a href="#">Hamx</a></span> -->
+                    <i class='bx bx-x sidebarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="#" id="homePage">Home</a></li>
+                    <li><a href="#" id="aboutPage">About Me</a></li>
+                    <li><a href="#" id="projectPage">Projects</a></li>
+                </ul>
+            </div>
+
+            <div class="contact-us-btn">
+                <a href="#" id="conbtn"> Contacts</a>
+                <i class='bx bx-menu sidebarOpen'></i>
+            </div>
+
+        </div>
+    </nav>
+    <!-- header start -->
+    <div class="header-section">
+        <div class="left-section">
+            <!-- <img class="animated-img"                src="https://demo.phlox.pro/freelancer/wp-content/uploads/sites/272/2021/02/hero-img.png" alt="Header Image"> -->
+            <img class="animated-img" src="photo_convocation.jpg" alt="Header Image">
+        </div>
+        <div class="right-section">
+            <div class="intro animatedcard">
+                <h2 style="color: #64f4ab;">--Introduction</h2>
+            </div>
+            <div class="main-text">
+                <h1>
+                    Hello<br>
+                    I'm Kiran <Br>
+                    Tiwari
+                </h1>
+            </div>
+            <div class="paragraph animatedcard">
+                <p>I’m a software developer who loves building intuitive and efficient applications. With experience in
+                    React Native, Java, and backend systems, I’ve worked on dynamic projects that solve real-world
+                    problems. I’m always eager to learn, create, and make a positive impact through my work.</p>
+            </div>
+            <!-- <div class="contact-button animatedcard">
+                <a href="#" style="border-radius: 1em;">
+                    <p style="padding: 9px; "> Contact Us</p>
+                </a>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- cards and skills -->
+    <!-- 
+	<section class="header-section1">
+        <div class="left-section1">
+            <h2>My Skills</h2>
+            <h3>Why Hire Me For the Next Project?</h3>
+            <p>The technological revolution is changing aspects of our lives, and the fabric of society itself. It's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can collaborate with specialists.</p>
+            <div class="cv-button">
+                <a href="#">Download CV</a>
+            </div>
+        </div>
+        <div class="right-section1">
+            <div class="card">
+                <h3>Card 1</h3>
+                <p>Card 1 content goes here</p>
+            </div>
+            <div class="card">
+                <h3>Card 2</h3>
+                <p>Card 2 content goes here</p>
+            </div>
+            <div class="card">
+                <h3>Card 3</h3>
+                <p>Card 3 content goes here</p>
+            </div>
+            <div class="card">
+                <h3>Card 4</h3>
+                <p>Card 4 content goes here</p>
+            </div>
+        </div>
+    </section> -->
+
+
+    <section class="skills" id="aboutSection">
+        <div class="container">
+            <div style="padding: 9% 2em;" class="content-section">
+                <p style="color: #64f4ab;">--My Skills</p>
+                <h1 style="padding:20px; font-size: 36px;">Why should you hire me ?</h1>
+                <p style="padding: 25px ; font-size: larger  ;"> I bring a strong blend of technical expertise and a
+                    proactive attitude. With hands-on experience in technologies like React Native, Java, Python, and
+                    backend development, I have successfully delivered impactful projects involving dynamic forms, API
+                    integrations, and map-based features. My skills in C++, Data Structures and Algorithms, OOP,
+                    Operating Systems, Computer Networks, DBMS, MySQL, Firebase, Node.js, Express.js, and MongoDB equip
+                    me to tackle complex challenges efficiently. I’m a quick learner, adaptable to new challenges, and
+                    committed to delivering high-quality solutions. My problem-solving skills, teamwork, and dedication
+                    make me a valuable asset to any team.
+                </p>
+
+
+                <div class="cv-button" style="padding: 26px;">
+                    <a href="resume_dec (2).pdf" target="_blank">Download CV</a>
+                </div>
+            </div>
+            <div class="cards-section">
+                <div class="card  card1 anime" style="background-color: #2d2e32; border: none;">
+                    <!-- Card 1 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="100" height="100">
+                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="37" height="38.134" viewBox="0 0 37 38.134">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                                gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#64f4ab" />
+                                                <stop offset="1" stop-color="#327a56" />
+                                            </linearGradient>
+                                        </defs>
+                                        <g id="product_design_icon" data-name="product design - icon"
+                                            transform="translate(-27.328 -15.227)">
+                                            <path id="Path_58" data-name="Path 58"
+                                                d="M176.63,132.33a1.044,1.044,0,0,0-.63.967v11.652a1.059,1.059,0,0,0,.629.968l9.533,4.237a1.055,1.055,0,0,0,.861,0h0l9.533-4.237a1.059,1.059,0,0,0,.629-.968V133.3a1.044,1.044,0,0,0-.63-.967h0l-9.533-4.237a1.061,1.061,0,0,0-.861,0l-9.533,4.237Zm8.9,15.226-7.415-3.3v-9.333l7.415,3.3Zm9.533-3.3-7.415,3.3v-9.333l7.415-3.3Zm-8.474-14.041,6.925,3.078-6.925,3.078-6.925-3.078Z"
+                                                transform="translate(-140.794 -105.358)" fill="url(#linear-gradient)" />
+                                            <path id="Path_59" data-name="Path 59" d="M248,320h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -271.936)" fill="url(#linear-gradient)" />
+                                            <path id="Path_60" data-name="Path 60" d="M248,72h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -56.773)" fill="url(#linear-gradient)" />
+                                            <path id="Path_61" data-name="Path 61" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(27.328 25.723) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_76" data-name="Path 76" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(58.981 42.766) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_62" data-name="Path 62" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(58.897 25.915) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_63" data-name="Path 63" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(27.328 42.86) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                        </g>
+                                    </svg>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">MERN
+                            Stack, React Native
+                        </h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;"> Full Stack Development and
+                            Android Development</p>
+                    </div>
+                </div>
+                <div class="card  card2 anime" style="background-color: #2d2e32; border: none;">
+                    <!-- Card 2 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="100" height="100">
+                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="37" height="38.134" viewBox="0 0 37 38.134">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                                gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#64f4ab" />
+                                                <stop offset="1" stop-color="#327a56" />
+                                            </linearGradient>
+                                        </defs>
+                                        <g id="product_design_icon" data-name="product design - icon"
+                                            transform="translate(-27.328 -15.227)">
+                                            <path id="Path_58" data-name="Path 58"
+                                                d="M176.63,132.33a1.044,1.044,0,0,0-.63.967v11.652a1.059,1.059,0,0,0,.629.968l9.533,4.237a1.055,1.055,0,0,0,.861,0h0l9.533-4.237a1.059,1.059,0,0,0,.629-.968V133.3a1.044,1.044,0,0,0-.63-.967h0l-9.533-4.237a1.061,1.061,0,0,0-.861,0l-9.533,4.237Zm8.9,15.226-7.415-3.3v-9.333l7.415,3.3Zm9.533-3.3-7.415,3.3v-9.333l7.415-3.3Zm-8.474-14.041,6.925,3.078-6.925,3.078-6.925-3.078Z"
+                                                transform="translate(-140.794 -105.358)" fill="url(#linear-gradient)" />
+                                            <path id="Path_59" data-name="Path 59" d="M248,320h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -271.936)" fill="url(#linear-gradient)" />
+                                            <path id="Path_60" data-name="Path 60" d="M248,72h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -56.773)" fill="url(#linear-gradient)" />
+                                            <path id="Path_61" data-name="Path 61" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(27.328 25.723) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_76" data-name="Path 76" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(58.981 42.766) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_62" data-name="Path 62" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(58.897 25.915) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_63" data-name="Path 63" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(27.328 42.86) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                        </g>
+                                    </svg>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;"> C++
+                        </h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;"> Data Structures and
+                            Algorithms</p>
+                    </div>
+
+
+                </div>
+                <div class="card  card3 anime" style="background-color: #2d2e32; border: none;">
+                    <!-- Card 3 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="100" height="100">
+                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="37" height="38.134" viewBox="0 0 37 38.134">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                                gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#64f4ab" />
+                                                <stop offset="1" stop-color="#327a56" />
+                                            </linearGradient>
+                                        </defs>
+                                        <g id="product_design_icon" data-name="product design - icon"
+                                            transform="translate(-27.328 -15.227)">
+                                            <path id="Path_58" data-name="Path 58"
+                                                d="M176.63,132.33a1.044,1.044,0,0,0-.63.967v11.652a1.059,1.059,0,0,0,.629.968l9.533,4.237a1.055,1.055,0,0,0,.861,0h0l9.533-4.237a1.059,1.059,0,0,0,.629-.968V133.3a1.044,1.044,0,0,0-.63-.967h0l-9.533-4.237a1.061,1.061,0,0,0-.861,0l-9.533,4.237Zm8.9,15.226-7.415-3.3v-9.333l7.415,3.3Zm9.533-3.3-7.415,3.3v-9.333l7.415-3.3Zm-8.474-14.041,6.925,3.078-6.925,3.078-6.925-3.078Z"
+                                                transform="translate(-140.794 -105.358)" fill="url(#linear-gradient)" />
+                                            <path id="Path_59" data-name="Path 59" d="M248,320h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -271.936)" fill="url(#linear-gradient)" />
+                                            <path id="Path_60" data-name="Path 60" d="M248,72h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -56.773)" fill="url(#linear-gradient)" />
+                                            <path id="Path_61" data-name="Path 61" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(27.328 25.723) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_76" data-name="Path 76" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(58.981 42.766) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_62" data-name="Path 62" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(58.897 25.915) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_63" data-name="Path 63" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(27.328 42.86) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                        </g>
+                                    </svg>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">Object
+                            Oriented Programming</h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">In C++ and Java</p>
+                    </div>
+
+
+                </div>
+                <div class="card  card4 anime" style="background-color: #2d2e32;border: none;">
+                    <!-- Card 4 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="100" height="100">
+                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="37" height="38.134" viewBox="0 0 37 38.134">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="0.5" zx2="0.5" y2="1"
+                                                gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#64f4ab" />
+                                                <stop offset="1" stop-color="#327a56" />
+                                            </linearGradient>
+                                        </defs>
+                                        <g id="product_design_icon" data-name="product design - icon"
+                                            transform="translate(-27.328 -15.227)">
+                                            <path id="Path_58" data-name="Path 58"
+                                                d="M176.63,132.33a1.044,1.044,0,0,0-.63.967v11.652a1.059,1.059,0,0,0,.629.968l9.533,4.237a1.055,1.055,0,0,0,.861,0h0l9.533-4.237a1.059,1.059,0,0,0,.629-.968V133.3a1.044,1.044,0,0,0-.63-.967h0l-9.533-4.237a1.061,1.061,0,0,0-.861,0l-9.533,4.237Zm8.9,15.226-7.415-3.3v-9.333l7.415,3.3Zm9.533-3.3-7.415,3.3v-9.333l7.415-3.3Zm-8.474-14.041,6.925,3.078-6.925,3.078-6.925-3.078Z"
+                                                transform="translate(-140.794 -105.358)" fill="url(#linear-gradient)" />
+                                            <path id="Path_59" data-name="Path 59" d="M248,320h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -271.936)" fill="url(#linear-gradient)" />
+                                            <path id="Path_60" data-name="Path 60" d="M248,72h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -56.773)" fill="url(#linear-gradient)" />
+                                            <path id="Path_61" data-name="Path 61" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(27.328 25.723) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_76" data-name="Path 76" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(58.981 42.766) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_62" data-name="Path 62" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(58.897 25.915) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_63" data-name="Path 63" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(27.328 42.86) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                        </g>
+                                    </svg>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">
+                            Databases</h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;"> Google cloud, MongoDB,
+                            MySQL</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills details section  -->
+
+
+    <div class="container skillsdelt mx-auto" id="projectSection">
+        <div class="flex flex-wrap">
+            <div class="w-full lg:w-1/2" id="leftSection">
+                <div class="flex flex-col h-full p-10 left_sec ">
+                    <div class="mb-4 mt-4">
+                        <h4 style="color: #64f4ab;" style=" font-family:monospace;" class="text-lg  font-bold">Project 1
+                        </h4>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <div class="flex flex-row">
+                            <h2 class="text-5xl text-white font-bold mr-4" style=" font-family:monospace;">EmpowerGlow
+                            </h2>
+                            <a class="elementor-icon elementor-social-icon elementor-social-icon-github elementor-repeater-item-c0177e3"
+                                href="https://github.com/kiran023/EmpowerGlow" target="_blank">
+
+                                <i class="fab fa-github"></i> </a>
+                        </div>
+
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <p class="text-white text-lg" style=" font-family:monospace;">EmpowerGlow is an e-commerce
+                            platform offering a wide range of women’s hygiene products with a seamless, user-friendly
+                            shopping experience. It features an intuitive interface for browsing, managing carts, and
+                            wishlists, alongside real-time chat for instant customer support. The platform ensures
+                            secure user authentication and efficient data management using Firebase, while React.js
+                            powers its dynamic and responsive frontend. With Node.js and Socket.IO enabling real-time
+                            communication, EmpowerGlow reflects a customer-first approach by blending advanced
+                            technology with thoughtful design to deliver convenience, reliability, and efficiency.</p>
+                    </div>
+                    <!-- <div class="flex items-center"> -->
+                    <!-- <a href="#" class="flex items-center text-white text-yellow-500">
+                            <span class=" mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10.998"
+                                    viewBox="0 0 18 10.998">
+                                    <g id="right_arrow_-_icon" data-name="right arrow - icon"
+                                        transform="translate(21 -6.501) rotate(90)">
+                                        <path id="Path_98" data-name="Path 98"
+                                            d="M6.59,11.858a.714.714,0,0,0,.627.38h4.066v8.028a.717.717,0,1,0,1.434,0V12.238h4.066a.713.713,0,0,0,.627-.38.748.748,0,0,0-.02-.745l-4.783-7.77a.709.709,0,0,0-1.214,0L6.61,11.113A.754.754,0,0,0,6.59,11.858Z"
+                                            fill="#fecd1a" />
+                                    </g>
+                                </svg></span>
+                                read more
+                        </a> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+
+            <div class="w-full lg:w-1/2 anime" id="rightSection">
+                <div class="flex justify-center items-center h-full">
+                    <div class="">
+                        <img style="border-radius: 20px;" src="empowerGlow.png" alt="Image"
+                            class="w-full h-auto rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container skillsdelt">
+        <div class="flex flex-wrap">
+            <div class="w-full lg:w-1/2 anime" id="rightSection1">
+                <div class="flex justify-center items-center h-full">
+                    <div class="">
+                        <img style="border-radius: 20px;" src="HMS.png" alt="Image" class="w-full h-auto rounded-lg">
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2" id="leftSection1">
+                <div class="flex flex-col h-full p-10 left_sec ">
+                    <div class="mb-4 mt-4">
+                        <h4 style="color: #64f4ab;" style=" font-family:monospace;" class="text-lg  font-bold">Project 2
+                        </h4>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <h2 class="text-5xl text-white font-bold " style=" font-family:monospace;">H-Plus</h2>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <p class="text-white text-lg" style=" font-family:monospace;">The Hospital Management System
+                            (H-Plus) is a comprehensive web application designed to streamline hospital operations,
+                            providing separate views for patients and doctors. Built using JSP, Servlets, JDBC, MySQL,
+                            and Tailwind, the system facilitates patient registration, appointment scheduling,
+                            admission, discharge, and billing processes. It ensures secure payment tracking with RESTful
+                            APIs and robust session management for reliable performance. With a focus on efficiency and
+                            user experience, H-Plus optimizes data transactions and integrates secure workflows for
+                            seamless hospital management.
+                        </p>
+                    </div>
+                    <!-- <div class="flex items-center">
+                        <a href="#" class="flex items-center text-white text-yellow-500">
+                            <span class=" mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10.998"
+                                    viewBox="0 0 18 10.998">
+                                    <g id="right_arrow_-_icon" data-name="right arrow - icon"
+                                        transform="translate(21 -6.501) rotate(90)">
+                                        <path id="Path_98" data-name="Path 98"
+                                            d="M6.59,11.858a.714.714,0,0,0,.627.38h4.066v8.028a.717.717,0,1,0,1.434,0V12.238h4.066a.713.713,0,0,0,.627-.38.748.748,0,0,0-.02-.745l-4.783-7.77a.709.709,0,0,0-1.214,0L6.61,11.113A.754.754,0,0,0,6.59,11.858Z"
+                                            fill="#fecd1a" />
+                                    </g>
+                                </svg></span>
+                            Read more
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- line no 3 -->
+
+
+    <!-- <div class="container skillsdelt mt-20 pt-16">
+        <div class="flex flex-wrap">
+            <div class="w-full lg:w-1/2" id="leftSection2">
+                <div class="flex flex-col h-full p-10 left_sec ">
+                    <div class="mb-4 mt-4">
+                        <h4 style="color: #64f4ab;" style=" font-family:monospace;" class="text-lg  font-bold">Project 3
+                        </h4>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <h2 class="text-5xl text-white font-bold " style=" font-family:monospace;">Resturant Landing
+                            Page
+
+                        </h2>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <p class="text-white text-lg" style=" font-family:monospace;">The technological revolution is
+                            changing aspect of our lives, and the fabric of society itself. it's also changing the way
+                            we learn and what we learn. Factual knowledge is less prized when everything you ever need
+                            to know can be found on your phone. There's no imperative to be an expert at doing
+                            everything when you can.</p>
+                    </div>
+                    <div class="flex items-center">
+                        <a href="#" class="flex items-center text-white text-yellow-500">
+                            <span class=" mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10.998"
+                                    viewBox="0 0 18 10.998">
+                                    <g id="right_arrow_-_icon" data-name="right arrow - icon"
+                                        transform="translate(21 -6.501) rotate(90)">
+                                        <path id="Path_98" data-name="Path 98"
+                                            d="M6.59,11.858a.714.714,0,0,0,.627.38h4.066v8.028a.717.717,0,1,0,1.434,0V12.238h4.066a.713.713,0,0,0,.627-.38.748.748,0,0,0-.02-.745l-4.783-7.77a.709.709,0,0,0-1.214,0L6.61,11.113A.754.754,0,0,0,6.59,11.858Z"
+                                            fill="#fecd1a" />
+                                    </g>
+                                </svg></span>
+                            Read more
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full lg:w-1/2  anime" id="rightSection2">
+                <div class="flex justify-center items-center h-full">
+                    <div class="w-3/4">
+                        <img style="border-radius: 37px;"
+                            src="https://demo.phlox.pro/freelancer/wp-content/uploads/sites/272/2021/02/portfolio-3-img.jpg"
+                            alt="Image" class="w-full h-auto rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+
+    <!-- <div class="center-button">
+        <button style="background-color: #ffaf29;">View All
+            <div class="star-1">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-2">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-3">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-4">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-5">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-6">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+        </button>
+    </div> -->
+
+    <!-- <div class="wrapperx"> -->
+    <!-- <div class="containerx num1">
+
+            <span class="num " data-val="56">0</span>
+            <span class="text">Happy Clients</span>
+        </div>
+
+        <div class="containerx">
+
+            <span class="num" data-val="87">0</span>
+            <span class="text">Projects Done</span>
+        </div>
+
+        <div class="containerx">
+
+            <span class="num" data-val="16">0</span>
+            <span class="text">Awards Winning</span>
+        </div>
+
+        <div class="containerx num2">
+
+            <span class="num " data-val="7">0</span>
+            <span class="text">Years Experience</span>
+        </div> -->
+    <!-- </div> -->
+
+
+
+
+
+
+
+    <!-- slider  section  -->
+
+
+
+
+
+
+    <!-- <div class="container" style="width: 100%; margin-top: 13%;">
+        <div class="slider " style="width: 100% ;">
+            <div class="slide " style="width: 100%;">
+                <div class="row">
+
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img style="border-radius: 58px; margin-left: 20%;"
+                                    src="https://demo.phlox.pro/freelancer/wp-content/uploads/sites/272/2021/07/testi21.png"
+                                    alt="Image" class="img-fluid">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="right-section">
+                                    <div class="svg-section" style="height: 90px;">
+                                        <svg class=""><svg xmlns="http://www.w3.org/2000/svg" width="61.158"
+                                                height="51.075" viewBox="0 0 61.158 51.075">
+                                                <defs>
+                                                    <linearGradient id="linear-gradient1" x1="0.5" x2="0.5" y2="1">
+                                                        <stop offset="0" stop-color="var(--e-global-color-accent)" />
+                                                        <stop offset="1" stop-color="var(--e-global-color-c51b028)" />
+                                                    </linearGradient>
+                                                </defs>
+                                                <g id="quote_-_icon" data-name="quote - icon"
+                                                    transform="translate(0 -7.858)">
+                                                    <g id="Group_107" data-name="Group 107"
+                                                        transform="translate(0 7.858)">
+                                                        <path id="Path_38"
+                                                            d="M19.574,31a16.2,16.2,0,0,0-4.478-.654A14.072,14.072,0,0,0,9.482,31.5c1.411-5.167,4.8-14.082,11.556-15.086a1.6,1.6,0,0,0,1.309-1.154l1.476-5.28A1.6,1.6,0,0,0,22.5,7.961a11.212,11.212,0,0,0-1.51-.1c-8.107,0-16.136,8.462-19.524,20.578C-.527,35.544-1.11,46.23,3.789,52.957c2.741,3.764,6.741,5.774,11.887,5.975h.063A14.228,14.228,0,0,0,19.574,31Z"
+                                                            transform="translate(0 -7.858)" fill="#64f4ab" />
+                                                        <path id="Path_39"
+                                                            d="M76.754,37.724A14.262,14.262,0,0,0,68.2,31a16.2,16.2,0,0,0-4.477-.654,14.075,14.075,0,0,0-5.615,1.15c1.411-5.167,4.8-14.082,11.556-15.086a1.606,1.606,0,0,0,1.309-1.154l1.476-5.28a1.6,1.6,0,0,0-1.327-2.021,11.2,11.2,0,0,0-1.51-.1c-8.107,0-16.136,8.462-19.524,20.578C48.1,35.544,47.516,46.23,52.416,52.958c2.741,3.763,6.741,5.774,11.886,5.974h.064A14.228,14.228,0,0,0,76.754,37.724Z"
+                                                            transform="translate(-17.431 -7.858)" fill="#64f4ab" />
+                                                    </g>
+                                                </g>
+                                            </svg></svg>
+                                    </div>
+                                    <div class="text-section">
+                                        <p class="text-white" style="font-size: 20px;">The quick,
+                                            brown fox jumps over a lazy dog. DJs flock by
+                                            when MTV ax quiz prog. Junk MTV quiz graced by
+                                            fox whelps. Bawds jog, flick quartz, vex nymphs.
+                                            Waltz, bad nymph, for quick jigs vex!</p>
+                                    </div>
+                                    <div class="name-section">
+                                        <h3 style="color: #64f4ab; font-size: 30px; padding-top: 20px;"> Hammad</h3>
+                                    </div>
+                                    <div class="designation-section">
+                                        <p style="color: white; font-size: 20px; padding-top: 15px;">CEO of Fignma</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="row">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img style="border-radius: 58px; margin-left: 20%;"
+                                    src="https://demo.phlox.pro/freelancer/wp-content/uploads/sites/272/2021/02/testimonials-img.jpg"
+                                    alt="Image" class="img-fluid">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="right-section">
+                                    <div class="svg-section" style="height: 90px;">
+                                        <svg class=""><svg xmlns="http://www.w3.org/2000/svg" width="61.158"
+                                                height="51.075" viewBox="0 0 61.158 51.075">
+                                                <defs>
+                                                    <linearGradient id="linear-gradient1" x1="0.5" x2="0.5" y2="1">
+                                                        <stop offset="0" stop-color="var(--e-global-color-accent)" />
+                                                        <stop offset="1" stop-color="var(--e-global-color-c51b028)" />
+                                                    </linearGradient>
+                                                </defs>
+                                                <g id="quote_-_icon" data-name="quote - icon"
+                                                    transform="translate(0 -7.858)">
+                                                    <g id="Group_107" data-name="Group 107"
+                                                        transform="translate(0 7.858)">
+                                                        <path id="Path_38"
+                                                            d="M19.574,31a16.2,16.2,0,0,0-4.478-.654A14.072,14.072,0,0,0,9.482,31.5c1.411-5.167,4.8-14.082,11.556-15.086a1.6,1.6,0,0,0,1.309-1.154l1.476-5.28A1.6,1.6,0,0,0,22.5,7.961a11.212,11.212,0,0,0-1.51-.1c-8.107,0-16.136,8.462-19.524,20.578C-.527,35.544-1.11,46.23,3.789,52.957c2.741,3.764,6.741,5.774,11.887,5.975h.063A14.228,14.228,0,0,0,19.574,31Z"
+                                                            transform="translate(0 -7.858)" fill="#64f4ab" />
+                                                        <path id="Path_39"
+                                                            d="M76.754,37.724A14.262,14.262,0,0,0,68.2,31a16.2,16.2,0,0,0-4.477-.654,14.075,14.075,0,0,0-5.615,1.15c1.411-5.167,4.8-14.082,11.556-15.086a1.606,1.606,0,0,0,1.309-1.154l1.476-5.28a1.6,1.6,0,0,0-1.327-2.021,11.2,11.2,0,0,0-1.51-.1c-8.107,0-16.136,8.462-19.524,20.578C48.1,35.544,47.516,46.23,52.416,52.958c2.741,3.763,6.741,5.774,11.886,5.974h.064A14.228,14.228,0,0,0,76.754,37.724Z"
+                                                            transform="translate(-17.431 -7.858)" fill="#64f4ab" />
+                                                    </g>
+                                                </g>
+                                            </svg></svg>
+                                    </div>
+                                    <div class="text-section text-white">
+                                        <p>The quick,
+                                            brown fox jumps over a lazy dog. DJs flock by
+                                            when MTV ax quiz prog. Junk MTV quiz graced by
+                                            fox whelps. Bawds jog, flick quartz, vex nymphs.
+                                            Waltz, bad nymph, for quick jigs vex!</p>
+                                    </div>
+                                    <div class="name-section">
+                                        <h3 style="color: #64f4ab; font-size: 30px; padding-top: 20px;"> Hammad</h3>
+                                    </div>
+                                    <div class="designation-section">
+                                        <p style="color: white; font-size: 20px; padding-top: 15px;">CEO of Fignma</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- </div>
+    <script>
+        $(document).ready(function () {
+            $('.slider').slick({
+                arrows: false,
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+        });
+    </script> -->
+
+
+    <!-- footer section  -->
+
+
+    <div class="footer1" id="footer">
+
+        <div class="logo_sec">
+            <span class="logo navLogo">
+            </span>
+
+        </div>
+        <div class="infoo">
+            <h3 style="color: white;">© KIRAN TIWARI - kirankt023@gmail.com - 9057628755</h3>
+        </div>
+        <div class="otheracc">
+
+            <div class="elementor-grid-item">
+                <a class="elementor-icon elementor-social-icon elementor-social-icon-auxicon-twich elementor-repeater-item-395a9c5"
+                    href="#" target="_blank">
+
+                    <i class="auxicon auxicon-twich"></i> </a>
+            </div>>
+            <div class="elementor-grid-item">
+                <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-638ce13"
+                    href="https://www.linkedin.com/in/kiran-tiwari-4b6b6a22b/" target="_blank">
+
+                    <i class="fab fa-linkedin-in"></i> </a>
+            </div>>
+            <div class="elementor-grid-item">
+                <a class="elementor-icon elementor-social-icon elementor-social-icon-github elementor-repeater-item-c0177e3"
+                    href="https://github.com/kiran023" target="_blank">
+
+                    <i class="fab fa-github"></i> </a>
+            </div>>
+            <div class="elementor-grid-item">
+                <a class="elementor-icon elementor-social-icon elementor-social-icon-leetcode elementor-repeater-item-45053c6"
+                    href="#" target="_blank">
+                    <i class="fab fa-leetcode"></i> </a>
+            </div>>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script>
+
+
+
+        const intersectionCallback = (entries) => {
+            for (const entry of entries) { // Loop over all elements that either enter or exit the view.
+                if (entry.isIntersecting) { // This is true when the element is in view.
+                    entry.target.classList.add('animatedcard'); // Add a class.
+                }
+            }
+        }
+
+        /**
+         * Create a observer and use the instersectionCallback as 
+         * the instructions for what to do when an element enters
+         * or leaves the view
+         */
+        const observer = new IntersectionObserver(intersectionCallback);
+
+        /**
+         * Get all .item elements and loop over them.
+         * Observe each individual item.
+         */
+        const items = document.querySelectorAll('.anime');
+        for (const item of items) {
+            observer.observe(item);
+            console.log("observ");
+        }
+
+    </script>
+
+    <script>
+        $(window).on('scroll', function () {
+            var st = $(this).scrollTop(),
+                vh = $(this).height(),
+                $counter = $('.wrapperx'),
+                ct = $counter.offset().top;
+            if ((st + vh) > ct) {
+                // #counter is in the viewport
+
+                let valueDisplays = document.querySelectorAll(".num");
+                let interval = 100;
+
+                valueDisplays.forEach((valueDisplay) => {
+                    let startValue = 0;
+                    let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+                    let duration = Math.floor(interval / endValue);
+                    let counter = setInterval(function () {
+                        startValue += 1;
+                        valueDisplay.textContent = startValue;
+                        if (startValue == endValue) {
+                            clearInterval(counter);
+                        }
+                    }, duration);
+                });
+            }
+        })</script>
+
+</body>
+</body>
+
+</html>
